@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;    
+}
+
+body{
+    width:100%;
+    min-height: 100rem;
+    background-color: rgb(243,243,243);
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: start;
+    width: 45%;
+    height:200%;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone img{
+    height: 50%;
+}
+
+.continue{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    width:50%;
+    min-height:32rem;
+}
+
+.group{
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+    background-color: #ffffff;
+    color:rgb(155, 154, 154);
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;    
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.logo{
+    height:3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:50%;
+    overflow: hidden;
+}
+.profile-photo img{
+    height:6rem;
+}
+
+.login{
+    background-color: #0095f6;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.logout{
+    color:#0095f6;
+    margin-top: 0.5rem;
+}
+.not-account{
+    color: rgb(160,160,160);
+}
+.link-blue{
+    color:#0095F6;
+}
+.get-the-app{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0.5;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+}
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    margin: 5px 0 5px 0;
+    background-size: 100% 100%;
+    background-position: 50%;
+}
+.app-download:nth-child(1){
+    background-image: url("img/img-apple.png");
+}
+.app-download:nth-child(2){
+    background-image: url("img/img-google.png");
+}
+
+
+/*media queries*/
+@media (max-width:1024px){
+    .wrapper{
+        width:90%;
+    }
+}
+
+@media(max-width:650px){
+    body{
+        background-color: #ffffff;
+    }
+    .wrapper{width:90%;
+    }
+    .phone{
+        display: none;
+    }
+    .continue{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
+}
