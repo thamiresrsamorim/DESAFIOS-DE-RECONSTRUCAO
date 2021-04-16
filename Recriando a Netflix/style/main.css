@@ -1,0 +1,186 @@
+:root{
+    --azul:#6cacd1;
+    --preto:#000000;
+    --cinza:#f0ecec;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*ELEMENTO BASE*/
+body{
+    background: var(--preto);
+    Font-family: 'lucida sans';
+    color: var(--cinza);
+}
+
+header .container{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+header .logo{
+    margin-left: 10px;
+    background: -webkit-linear-gradient(90deg, rgba(139,186,232,1) 0%, rgba(18,96,129,1) 48%, rgba(0,169,213,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header nav a{
+    text-decoration:none;
+    color: var(--cinza);
+    margin-right: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    background: -webkit-linear-gradient(90deg, rgba(139,186,232,1) 0%, rgba(18,96,129,1) 48%, rgba(0,169,213,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+
+/***IMAGEM PRINCIPAL***/
+
+.img-principal{
+    font-size:16px;
+    height: 550px;
+    background-color: transparent;
+    background: linear-gradient(to bottom,black, transparent,black), url('/img/capa\ \(2\).jpg');
+    background-size:cover; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-principal .descricao{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 40px;
+    font-size: 14px;
+    text-align: justify;
+}
+.img-principal .titulo{
+    margin-top: 0;
+    margin-left: 40px;
+    width: 380px;
+    font-size:xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.40);
+    border:none;
+    border-radius: 5px;
+    color: var(--cinza);
+    padding:10px 30px;
+    margin: 0px 10px 0px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:rgba(0, 169, 213, 0.4);
+    color: #fff;
+}
+
+.botao .i{
+    margin-right: 25%;
+}
+
+.botao a:visited{
+    color:#6cacd1;
+    font-weight: bold;
+}
+
+.container{
+    margin-left:20px;
+}
+
+.img-principal .container{
+    width: 70%;
+}
+
+.box-img{
+    height: 40%;
+    width: 40%;
+    max-width: 220px;
+    max-height: 290px;
+    display: block;
+}
+
+.carrosel{
+    margin-top:10px;
+}
+
+.item a{
+    max-width: 200px;
+    max-height: 290px;
+}
+
+.titulo1{
+    margin-left:20px;
+    margin-top: 10px;
+    text-transform:uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/***INFORMAÇÕES FINAIS***/
+.info{
+    margin-left:20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.container-info{
+    margin-bottom: 100px;
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.redes i:hover{
+    background: -webkit-linear-gradient(90deg, rgba(139,186,232,1) 0%, rgba(18,96,129,1) 48%, rgba(0,169,213,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.redes i:visited{
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(18,96,129,1) 48%, rgba(0,0,0,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.redes a:visited{
+    color:#4886aa;
+    font-weight: bold;
+    text-decoration:none; 
+}

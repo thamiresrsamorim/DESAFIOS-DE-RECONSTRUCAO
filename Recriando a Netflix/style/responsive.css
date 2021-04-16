@@ -1,0 +1,81 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .logo{
+        font-size: 40px;
+        text-align: center;
+        margin-right: 20%;
+        background-color: transparent;
+    }
+    
+    nav a{
+        display: none;
+        font-size: 70%;
+        margin-right: 100%;
+    }
+
+    .container .botao{
+        margin-top:5px;
+        width: 90%;
+    }
+    
+    .container .titulo{
+        width: 90%;
+        font-size: 22px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-principal{
+        background-color: transparent;
+    }
+
+    .container .descricao{
+        width:90%;
+        font-size: 80%;
+        align-items: center;
+    }
+
+    .container-info{
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .container-info .info{ 
+        margin:auto;
+        display: none;
+        height: 0;
+    }
+    .container-info .redes{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        max-width: 10%;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width:45%;
+    }
+
+    .container .titulo{
+        width: 45%;
+        text-align: center;
+        align-items: center;
+        margin:40px;
+    }
+
+    .item{
+        width:95%;
+    }
+
+    .botao{
+        max-width: 55%;
+    }
+}
