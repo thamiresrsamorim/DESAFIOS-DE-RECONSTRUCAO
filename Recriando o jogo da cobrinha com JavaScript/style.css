@@ -1,9 +1,13 @@
 body{
-    height: 95vh;
-    width: 95;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: rosybrown;
+    height: 95vh; /*altura de viewport height*/
+    width: 95vw; /*largura de viewport width*/
+    display: flex; /*vai deixar os elementos do lado do outro*/
+    flex-direction: column; /*vai deixar um elemento embaixo do outro*/
+    justify-content: center; /*os espaços entre e em volta dos itens vão ficar no centro*/
+    align-items: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color:#810000; 
 }
